@@ -8,3 +8,5 @@ Eagle
 Sparrow
 Parrot
 
+Table
+Sofa
