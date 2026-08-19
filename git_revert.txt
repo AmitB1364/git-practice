@@ -3,3 +3,8 @@ Dog
 Cat
 Rat
 
+Bird
+Eagle
+Sparrow
+Parrot
+
