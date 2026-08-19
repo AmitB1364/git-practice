@@ -1,11 +1,9 @@
 Hello World
-<<<<<<< Updated upstream
 
 Hello Git
 
 Test stash command without add command.
 
 Test git stash command with fire add command.
-=======
+
 Test stash without fire add command.
->>>>>>> Stashed changes
