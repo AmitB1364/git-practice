@@ -1,2 +1,14 @@
 ABCDEF 
 
+git reset --mixed <commit> (The Default Mode)
+What it does: Moves your branch pointer back, leaves your files changed in your directory, but unstages them. 
+If you do not specify a flag, Git uses --mixed automatically.
+When to use it: Use this when you want to unstage a bunch of messy files you added via git add . so you can sort through them and commit them carefully line-by-line.
+
+git reset --soft <commit> (The "Redo Commit" Mode)
+What it does: Moves your branch pointer back to the target commit, but leaves all your modified files exactly as they are and keeps them staged (ready to commit).
+When to use it: Use this when you made a commit but realized you forgot to include a file, or you typed the wrong commit message and want to combine your changes into a fresh commit.
+
+git reset --hard <commit> (The "Nuclear" Mode)
+What it does: Moves your branch pointer back and permanently wipes out all uncommitted changes and commits made after that point. Your files change instantly to look exactly like the target commit.
+When to use it: Use this when your local code experiments went completely wrong, your app is broken, and you want to throw away everything you didsince that stable commit to start fresh.
