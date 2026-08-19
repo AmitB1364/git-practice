@@ -8,6 +8,3 @@ Eagle
 Sparrow
 Parrot
 
-Sea Creature
-Dolphine
-Shark
